@@ -2,7 +2,7 @@
   display: grid;
   background-color: #90D5FF;
   grid-template-columns: 40px auto 40px;
-  grid-template-rows: 40px 150px 250px 400px auto;
+  grid-template-rows: 40px 150px 40px 250px 400px auto;
 }
 .item{
   background-color: #B3EBF2;
@@ -26,6 +26,6 @@
 .info{
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
