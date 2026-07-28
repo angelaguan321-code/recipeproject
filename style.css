@@ -2,14 +2,14 @@
   display: grid;
   background-color: #90D5FF;
   grid-template-columns: 50px auto 50px;
-  grid-template-rows: 50px 150px auto;
+  grid-template-rows: 50px 150px 400px auto;
 }
 .item{
-  background-color: lightblue;
+  background-color: #B3EBF2;
   color: black;
   font-size: 20px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
 }
 .h1{
@@ -17,5 +17,5 @@
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  font-size: 50px;
+  font-size: 40px;
 }
