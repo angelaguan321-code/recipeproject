@@ -1,8 +1,8 @@
 .container{
   display: grid;
   background-color: #90D5FF;
-  grid-template-columns: 50px auto 50px;
-  grid-template-rows: 50px 150px 400px auto;
+  grid-template-columns: 40px auto 40px;
+  grid-template-rows: 40px 150px 400px auto;
 }
 .item{
   background-color: #B3EBF2;
@@ -11,6 +11,10 @@
   text-align: center;
   border-radius: 12px;
   overflow: hidden;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .h1{
   grid-column-start: 2;
