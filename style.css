@@ -1,7 +1,7 @@
 .container{
   display: grid;
   background-color: #90D5FF;
-  grid-template-columns: 40px auto 40px;
+  grid-template-columns: 40px auto 700px auto 40px;
   grid-template-rows: 40px 150px 40px 250px 400px auto;
 }
 .item{
@@ -17,15 +17,16 @@
   justify-content: center;
 }
 .h1{
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
   font-size: 40px;
 }
 .info{
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
+  padding: 20px;
 }
